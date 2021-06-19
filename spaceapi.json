@@ -1,0 +1,32 @@
+{
+    "api": "0.13",
+    "api_compatibility": ["14"],
+    "space": "Stockholm Makerspace",
+    "logo": "https://avatars.githubusercontent.com/u/3101896?s=200&v=4",
+    "url": "https://makerspace.se",
+    "location": {
+      "address": "Drottning Kristinas väg 53, 114 28 Stockholm, Sweden",
+      "timezone": "Europe/Stockholm",
+      "lat": 59.3505962,
+      "lon": 18.0654806
+    },
+    "contact": {
+      "email": "info@makerspace.se",
+      "twitter": "https://twitter.com/SthlmMakerspace",
+      "facebook": "https://www.facebook.com/Stockholm.Makerspace/",
+      "slack": ""
+    },
+    "feeds": {
+        "blog": {
+            "type": "rss",
+            "url": "https://www.makerspace.se/blogg/feed"
+        }
+    },
+    "issue_report_channels": ["email"],
+    "state": {
+      "open": true
+    },
+    "projects": [
+      "https://github.com/makerspace"
+    ]
+  }
