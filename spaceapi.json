@@ -7,8 +7,8 @@
     "location": {
       "address": "Drottning Kristinas väg 53, 114 28 Stockholm, Sweden",
       "timezone": "Europe/Stockholm",
-      "lat": 59.3505962,
-      "lon": 18.0654806
+      "lat": 59.3505623,
+      "lon": 18.0676122
     },
     "contact": {
       "email": "info@makerspace.se",
@@ -20,13 +20,41 @@
         "blog": {
             "type": "rss",
             "url": "https://www.makerspace.se/blogg/feed"
+        },
+        "calendar": {
+            "type": "ical",
+            "url": "https://calendar.google.com/calendar/ical/makerspace.se_dsd75rv0l7rblcq1sd627fab38%40group.calendar.google.com/public/basic.ics"
         }
     },
     "issue_report_channels": ["email"],
     "state": {
-      "open": true
+      "open": true,
+      "message": "Always open for members with lab membership."
     },
     "projects": [
       "https://github.com/makerspace"
-    ]
-  }
+    ],
+    "links":
+      [
+        {
+          "name": "Wiki",
+          "description": "Stockholm Makerspace's wiki. In Swedish.",
+          "url": "https://wiki.makerspace.se/"
+        },
+        {
+          "name": "Flickr",
+          "description": "Images on Flickr tagged 'Stockholm Makerspace'.",
+          "url": "https://flickr.com/search/?text=stockholm%20makerspace"
+        },
+        {
+          "name": "Instagram",
+          "description": "Stockholm Makerspace's Instagram feed.",
+          "url": "https://www.instagram.com/stockholmmakerspace/"
+        },
+        {
+          "name": "Webshop",
+          "description": "A webshop where you can buy membership, lab card and material.",
+          "url": "https://medlem.makerspace.se/shop/"
+        }
+      ]
+}
